@@ -1,0 +1,4 @@
+# ignorar tudo dentro da pasta js exceto o main.js
+
+/assets/js/*.js
+!/assets/js/main.js

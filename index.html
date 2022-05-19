@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Consumindo API com JavaScript">
+        <meta name="author" content="Thyago França">
+        <title>Consumindo API com JavaScript</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <section id="primary">
+            <main id="main" class="site-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <header class="text-center">
+                                <div class="logo">
+                                    <a href="http://127.0.0.1:5500/index.html">
+                                        <img src="assets/images/logotipo.png" alt="logo tipo">
+                                    </a>
+                                </div>
+                                <h1 class="title pt-5">Consumindo API do ViaCep</h1>
+                                <p class="lead">Criado por Thyago França</p>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="cep">Cep</label>
+                                        <input type="text" class="form-control" id="cep" placeholder="Digite o cep" required>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="endereco">Endereço</label>
+                                        <input type="text" class="form-control" id="endereco" placeholder="Endereço" required>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="numero">Número</label>
+                                        <input type="text" class="form-control" id="numero" placeholder="Número" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="bairro">Bairro</label>
+                                        <input type="text" class="form-control" id="bairro" placeholder="Bairro" required>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="cidade">Cidade</label>
+                                        <input type="text" class="form-control" id="cidade" placeholder="Cidade" required>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="estado">Estado</label>
+                                        <input type="text" class="form-control" id="estado" placeholder="Estado" required>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="text-center pt-3">
+                                <button type="button" id="save" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+        <footer id="rodape">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+                        <div class="socials">
+                            <ul class="list-unstyled">
+                                <li class="list-inline-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright">
+                            <p class="desc">Copyright © 2022. Todos os direitos reservados. Por Thyago França</p>
+                        </div>
+					</div><!-- /col-md-12 -->
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</footer><!-- /footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
